@@ -1,6 +1,6 @@
 Name:		perl-PPIx-Utilities
 Version:	1.001000
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	Extensions to PPI
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -58,6 +58,9 @@ make test
 %{_mandir}/man3/PPIx::Utilities::Statement.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.001000-8
+- Mass rebuild 2013-12-27
+
 * Thu Oct 25 2012 Petr Pisar <ppisar@redhat.com> - 1.001000-7
 - Specify all dependencies
 
